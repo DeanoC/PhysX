@@ -41,7 +41,7 @@
 #include "PxcConstraintBlockStream.h"
 #include "PxcThreadCoherentCache.h"
 #include "CmBitMap.h"
-#include "../pcm/GuPersistentContactManifold.h"
+#include "pcm/GuPersistentContactManifold.h"
 
 namespace physx
 {
