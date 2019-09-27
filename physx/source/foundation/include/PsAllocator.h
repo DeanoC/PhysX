@@ -37,12 +37,9 @@
 
 #if(PX_WINDOWS_FAMILY || PX_XBOXONE)
 	#include <exception>
-	#include <typeinfo.h>
-#endif
-#if(PX_APPLE_FAMILY)
-	#include <typeinfo>
 #endif
 
+#include <typeinfo>
 #include <new>
 
 // Allocation macros going through user allocator
